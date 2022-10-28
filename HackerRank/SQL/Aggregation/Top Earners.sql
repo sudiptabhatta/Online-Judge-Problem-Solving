@@ -1,0 +1,1 @@
+SELECT months*salary AS total, COUNT(employee_id) FROM employee GROUP BY total ORDER BY total DESC LIMIT 1;
